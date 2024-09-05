@@ -40,7 +40,7 @@
 #
 # Overriding Input
 #name = input("What is your name? ")
-#print(name)
+##print(name)
 #name = input("What is another name? ")
 #print(name)
 
@@ -49,7 +49,9 @@
 ## Problem 1 ##
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
-
+#name = input("enter name")
+##print( name )
+#print( name )
 
 
 
@@ -59,8 +61,8 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
-
-
+#name= input("enter name")
+#print("!" + name + "!" + name +"!")
 ## Problem 3 ##
 #Please write a script that: 
 # - Asks for the user's name and address. 
@@ -70,13 +72,23 @@
 #   - Last name: Sanders
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
+#fname=input("print first name")
+#sname=input("print last name")
+#address=input("print address")
+#code=input("enter city and postal code")
+#print("First name: " + fname)
+#print("Second name: " + sname)
+#print("Street address: " + address)
+#print("City and postal code: " + code)
 
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
-
-
+#w1= input("enter word 1")
+#w2= input("enter word 2")
+#w3= input("enter word 3")
+#print(w1+"-"+w2+"-"+w3)
 ## Problem 5 ##
 #Please write a script that: 
 # - Asks for a name and a year
@@ -88,3 +100,8 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+n=input("enter name")
+p=input("enter a year")
+print(n+" was a wonderful hero born in " + p + " who grew up capturing butterflies")
+print("On a dimly lit morning " + n + " was shot by multiple forces who consisted of their opposition and enemies")
+print("Though they were only born in" + p + " , " + n + " was a wonderful warrior and will always be remembered." )
